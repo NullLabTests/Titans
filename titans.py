@@ -45,7 +45,7 @@ class Titans(nn.Module):
     
     def forward(self, x):
         """
-        x: Tensor of shape [batch, seq_length, input_dim]
+        x: Tensor of our shape [batch, seq_length, input_dim]
         The memory module updates its internal state based on x.
         Then we use the (updated) memory as key/value for the attention module.
         """
